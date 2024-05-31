@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Реєстраційна форма</title>
+</head>
+<body>
+    <h2>Реєстраційна ajhvf</h2>
+    <form action="/submit_registration" method="post">
+        <label for="name">Ім'я:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Електронна пошта:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="dob">Дата народження:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="phone">Номер телефону:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label>Стать:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Чоловіча</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Жіноча</label><br>
+
+        <label for="profile-pic">Завантажити фото профілю:</label><br>
+        <input type="file" id="profile-pic" name="profile-pic"><br><br>
+
+        <label for="agree">Погоджуюсь зі збереженням та обробкою даних:</label>
+        <input type="checkbox" id="agree" name="agree" required><br><br>
+
+        <input type="submit" value="Зареєструватись">
+    </form>
+</body>
+</html>
